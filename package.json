@@ -1,0 +1,41 @@
+{
+  "name": "nexcuse.me",
+  "version": "0.0.1",
+  "description": "Server side of Nexcuse.me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "email-templates": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongodb": "*",
+    "multer": "*",
+    "mysql": "*",
+    "nodemailer": "*",
+    "amqplib": "*",
+    "passport": "*",
+    "passport-http-bearer": "*",
+    "passport-local": "*",
+    "password-hash": "*",
+    "promise": "*",
+    "request": "*",
+    "socket.io": "*",
+    "winston": "*",
+    "winston-daily-rotate-file": "*"
+  },
+  "engines": {
+    "node": "6.11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
+}
